@@ -29,7 +29,9 @@
     ],
     "n8n": {
         "n8nNodesApiVersion": 1,
-        "credentials": [],
+        "credentials": [
+            "dist/credentials/GcpServiceAccountApi.credentials.js"
+        ],
         "nodes": [
             "dist/nodes/GcpPubSubPublisher/GcpPubSubPublisher.node.js",
             "dist/nodes/GcpPubSubSubscriber/GcpPubSubSubscriber.node.js"

@@ -31,7 +31,8 @@
         "n8nNodesApiVersion": 1,
         "credentials": [],
         "nodes": [
-            "dist/nodes/GcpPubSubPublisher/GcpPubSubPublisher.node.js"
+            "dist/nodes/GcpPubSubPublisher/GcpPubSubPublisher.node.js",
+            "dist/nodes/GcpPubSubSubscriber/GcpPubSubSubscriber.node.js"
         ]
     },
     "dependencies": {

@@ -1,0 +1,63 @@
+{
+	"name": "gcpPubSubSubscriber",
+	"displayName": "GCP Pub/Sub Subscriber",
+	"version": 1,
+	"description": "Subscribes to messages from a Google Cloud Pub/Sub subscription",
+	"icon": {
+		"light": "file:GcpPubSubSubscriber.svg",
+		"dark": "file:GcpPubSubSubscriber.svg"
+	},
+	"group": [
+		"trigger"
+	],
+	"defaults": {
+		"name": "GCP Pub/Sub Subscriber"
+	},
+	"inputs": [],
+	"outputs": [
+		"main"
+	],
+	"properties": [
+		{
+			"displayName": "Project ID",
+			"name": "projectId",
+			"type": "string",
+			"default": "",
+			"required": true,
+			"description": "The Google Cloud Project ID"
+		},
+		{
+			"displayName": "Subscription Name",
+			"name": "subscriptionName",
+			"type": "string",
+			"default": "",
+			"required": true,
+			"description": "The name of the Pub/Sub subscription to listen to"
+		}
+	],
+	"credentials": [
+		{
+			"name": "gcpServiceAccountApi",
+			"required": true
+		}
+	],
+	"categories": [
+		"Google Cloud",
+		"Messaging",
+		"Integration",
+		"Development",
+		"Developer Tools"
+	],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://github.com/org/repo?tab=readme-ov-file#credentials"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://github.com/org/repo?tab=readme-ov-file"
+			}
+		]
+	}
+}

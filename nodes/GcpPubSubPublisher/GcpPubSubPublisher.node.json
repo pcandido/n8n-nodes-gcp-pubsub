@@ -1,0 +1,64 @@
+{
+	"name": "gcpPubSubPublisher",
+	"displayName": "GcpPubSubPublisher",
+	"version": 1,
+	"description": "Publishes messages to a Google Pub/Sub topic",
+	"icon": {
+		"light": "file:GcpPubSubPublisher.svg",
+		"dark": "file:GcpPubSubPublisher.svg"
+	},
+	"group": [
+		"output"
+	],
+	"defaults": {
+		"name": "GCP Pub/Sub Publisher"
+	},
+	"inputs": [
+		"main"
+	],
+	"outputs": [
+		"main"
+	],
+	"usableAsTool": true,
+	"properties": [
+		{
+			"displayName": "Project ID",
+			"name": "projectId",
+			"type": "string",
+			"default": "",
+			"required": true
+		},
+		{
+			"displayName": "Topic Name",
+			"name": "topicName",
+			"type": "string",
+			"default": "",
+			"required": true
+		}
+	],
+	"credentials": [
+		{
+			"name": "gcpServiceAccountApi",
+			"required": true
+		}
+	],
+	"categories": [
+		"Google Cloud",
+		"Messaging",
+		"Integration",
+		"Development",
+		"Developer Tools"
+	],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://github.com/org/repo?tab=readme-ov-file#credentials"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://github.com/org/repo?tab=readme-ov-file"
+			}
+		]
+	}
+}

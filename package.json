@@ -1,7 +1,7 @@
 {
     "name": "n8n-nodes-gcp-pubsub",
-    "version": "1.1.0",
-    "description": "Example n8n community node",
+    "version": "1.0.0",
+    "description": "Google Cloud Pub/Sub integration node for n8n",
     "license": "MIT",
     "homepage": "https://example.com",
     "keywords": [

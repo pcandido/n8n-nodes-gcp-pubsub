@@ -23,9 +23,13 @@ Follow the [installation guide](https://docs.n8n.io/integrations/community-nodes
 
 1. Go to **Settings > Community Nodes**.
 2. Select **Install**.
+   ![step1](docs/install-1.png)
 3. Enter `n8n-nodes-gcp-pubsub` in **Enter npm package name**.
 4. Agree to the [risks](https://docs.n8n.io/integrations/community-nodes/risks/) of using community nodes: select **I understand the risks of installing unverified code from a public source**.
 5. Select **Install**.
+   ![step2](docs/install-2.png)
+
+> **Note:** Feel free to inspect the source code of this package before installing it, ensuring greater transparency and security for your environment.
 
 After installing the node, you can use it like any other node. n8n displays the node in search results in the **Nodes** panel.
 

@@ -3,17 +3,31 @@
     "version": "1.3.3",
     "description": "Google Cloud Pub/Sub integration node for n8n",
     "license": "MIT",
-    "homepage": "https://example.com",
+    "homepage": "https://github.com/pcandido/n8n-nodes-gcp-pubsub",
     "keywords": [
-        "n8n-community-node-package"
+        "n8n-community-node-package",
+        "n8n",
+        "google-cloud",
+        "pubsub",
+        "gcp",
+        "integration"
     ],
     "author": {
         "name": "Paulo Cândido",
-        "email": "paulo.candido@g.globo"
+        "email": "pcandido.m@gmail.com"
     },
+    "contributors": [
+        {
+            "name": "Paulo Cândido",
+            "email": "pcandido.m@gmail.com"
+        }
+    ],
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "git+https://github.com/pcandido/n8n-nodes-gcp-pubsub.git"
+    },
+    "bugs": {
+        "url": "https://github.com/pcandido/n8n-nodes-gcp-pubsub/issues"
     },
     "scripts": {
         "build": "n8n-node build",
@@ -25,8 +39,7 @@
         "prepublishOnly": "n8n-node prerelease"
     },
     "files": [
-        "dist",
-        "docs"
+        "dist"
     ],
     "n8n": {
         "n8nNodesApiVersion": 1,
